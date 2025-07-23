@@ -16,7 +16,7 @@ The application expects a single table called `notes` defined as:
 | Column     | Type           | Required | Notes                   |
 |------------|----------------|----------|-------------------------|
 | id         | uuid           | Yes      | Primary key, auto-gen   |
-| title      | text           | No       | Note title              |
+| title      | text           | No       | Note title (optional)   |
 | content    | text           | No       | Note body content       |
 | updated_at | timestamptz    | Yes      | Last updated timestamp  |
 
